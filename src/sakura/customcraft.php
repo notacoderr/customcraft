@@ -4,9 +4,10 @@ namespace sakura;
 
 use pocketmine\Server;
 
-use sakura\{NewItems, NewRecipes};
-use pocketmine\plugin\PluginBase;
+use sakura\items\NewItems;
+use sakura\recipes\NewRecipes;
 
+use pocketmine\plugin\PluginBase;
 
 class customcraft extends PluginBase
 {
