@@ -2,6 +2,7 @@
 
 namespace sakura\items;
 
+use sakura\customcraft;
 use pocketmine\item\Tool;
 use pocketmine\item\{Item, ItemFactory};
 
