@@ -1,6 +1,8 @@
 <?php
 
-namespace sakura;
+namespace sakura\recipes;
+
+use sakura\customcraft;
 
 use pocketmine\Server;
 use pocketmine\item\Item;
