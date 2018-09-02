@@ -1,6 +1,6 @@
 <?php
 
-namespace sakura;
+namespace sakura\items;
 
 use sakura\customcraft;
 use pocketmine\item\{Item, ItemFactory};
