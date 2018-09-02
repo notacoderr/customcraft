@@ -2,7 +2,6 @@
 
 namespace sakura;
 
-use pocketmine\entity\Entity;
 use pocketmine\item\Tool;
 use pocketmine\item\{Item, ItemFactory};
 
