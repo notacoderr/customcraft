@@ -14,7 +14,7 @@ class NewRecipes {
           $ing = [
                   Item::get(352), Item::get(0), Item::get(352),
                   Item::get(0), Item::get(276), Item::get(0),
-                  Item::get(352) ,Item::get(0) Item::get(352)
+                  Item::get(352) ,Item::get(0), Item::get(352)
           ];
           
           $recipe = new ShapelessRecipe($ing, [Item::get(600)]);
