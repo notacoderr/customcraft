@@ -14,15 +14,12 @@ class customcraft extends PluginBase
   public function onEnable() : void
   {
     //ing [] , $result []
-    $recipe = new ShapelessRecipe(Item::get(287), Item::get(341));
-    $recipe->addIngredient(Item::get(287));
-    $recipe->addIngredient(Item::get(287));
-    $recipe->addIngredient(Item::get(287));
-    $recipe->addIngredient(Item::get(287));
-    $recipe->addIngredient(Item::get(287));
-    $recipe->addIngredient(Item::get(287));
-    $recipe->addIngredient(Item::get(287));
-    $recipe->addIngredient(Item::get(287));
-    CM::registerShapelessRecipe($recipe);
+    $ing = [
+    Item::get(341), Item::get(341), Item::get(341),
+    Item::get(341), Item::get(341), Item::get(341),
+    Item::get(341) ,Item::get(341) Item::get(341)
+    ];
+    $recipe = new ShapelessRecipe($ing, [Item::get(287)]);
+    Server::getInstance()->getCraftingManager()->registerShapelessRecipe($recipe);
   }
 }
