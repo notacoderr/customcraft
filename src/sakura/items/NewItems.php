@@ -3,7 +3,9 @@
 namespace sakura\items;
 
 use sakura\customcraft;
-use pocketmine\item\{Item, ItemFactory};
+
+use pocketmine\item\{Item,
+                     ItemFactory};
 
 class NewItems {
 
