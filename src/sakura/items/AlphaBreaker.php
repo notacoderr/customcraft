@@ -14,9 +14,9 @@ use pocketmine\item\ItemFactory;
 
 class AlphaBreaker extends TieredTool {
 	
-	public function __construct(int $id = 409, int $meta = 0, string $name = "Alpha Breaker", int $tier = 1) {
+	public function __construct(int $id = 409, int $meta = 0) {
 		
-		parent::__construct($id, $meta, $name, $tier);
+		parent::__construct($id, $meta, "Alpha Breaker", TieredTool::TIER_IRON);
 	}
 	
 	public function getBlockToolType() : int{
