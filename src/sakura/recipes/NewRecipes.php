@@ -12,12 +12,12 @@ class NewRecipes {
         public static function init() {
         
           $ing = [
-                  Item::get(352), Item::get(0), Item::get(352),
-                  Item::get(0), Item::get(276), Item::get(0),
-                  Item::get(352) ,Item::get(0), Item::get(352)
+                  Item::get(422), Item::get(422), Item::get(422),
+                  Item::get(422), Item::get(276), Item::get(422),
+                  Item::get(422) ,Item::get(422), Item::get(422)
           ];
           
-          $recipe = new ShapelessRecipe($ing, [Item::get(600)]);
+          $recipe = new ShapelessRecipe($ing, [Item::get(409)]);
           Server::getInstance()->getCraftingManager()->registerShapelessRecipe($recipe);
         }
 }
