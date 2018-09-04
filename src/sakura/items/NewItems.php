@@ -11,12 +11,13 @@ class NewItems {
 
       public static function init() {
       
-          ItemFactory::registerItem(new AlphaBreaker(), true);
+          ItemFactory::registerItem(new FighterClassSword(), true);
+          ItemFactory::registerItem(new AssassinClassSword(), true);
           //Item::initCreativeItems();
         
           /* Removing items from the creative inventory */
         
-          Item::removeCreativeItem(Item::get(409)); //Prismarine Shard 409
+          Item::removeCreativeItem(Item::get(416));
           
       }
 
