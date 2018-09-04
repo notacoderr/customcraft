@@ -12,11 +12,11 @@ use pocketmine\entity\Entity;
 use pocketmine\item\Item;
 use pocketmine\item\ItemFactory;
 
-class AlphaBreaker extends TieredTool {
+class FighterClassSword extends TieredTool {
 	
-	public function __construct(int $id = 409, int $meta = 0) {
+	public function __construct(int $id = 416, int $meta = 0) {
 		
-		parent::__construct($id, $meta, "Alpha Breaker", TieredTool::TIER_IRON);
+		parent::__construct($id, $meta, "Fighter Class Sword", TieredTool::TIER_IRON);
 	}
 	
 	public function getBlockToolType() : int{
