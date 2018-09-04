@@ -12,7 +12,11 @@ class NewItems {
       public static function init() {
       
           ItemFactory::registerItem(new AlphaBreaker(), true);
-          Item::initCreativeItems();
+          //Item::initCreativeItems();
+        
+          /* Removing items from the creative inventory */
+        
+          Item::removeCreativeItem(Item::get(409)); //Prismarine Shard 409
           
       }
 
